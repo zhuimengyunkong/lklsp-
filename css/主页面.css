@@ -1,0 +1,112 @@
+/*导航栏开始*/
+.header{
+	width: 100%;
+	height: 40px;
+	line-height: 40px;
+	background-color: #333;
+	color: #333333;
+	font-size: 12px;
+	margin: 0 auto;
+}
+.wrap{
+	width: 1246px;
+	margin: 0 auto;
+}
+
+.lklsp{
+	background-size:100%;
+	background-color: #f1f1f1;
+	text-align: center;
+}
+
+.header a{
+	color:#b0b0b0;
+}
+
+.header a:hover{
+	color:#fff;
+}
+		
+.header li{
+	float: left;
+}
+
+.header span{
+	margin: 20px;
+}
+/*导航栏结束*/
+
+/*主体2——轮播图+欢迎辞.开始*/
+.banner{
+	background-color: #f1f1f1;
+	background-size:100%;
+	width: 1246px;
+	margin: 0 auto;
+	text-align: center;
+}
+.banner-box-left{
+	background-color: #f1f1f1;
+	width: 720px;
+	height: 520px;
+	margin: 0 auto;
+	background-image:url("../img/QQ图片20221019222735.jpg");
+	background-size:100%;	
+	float: left;
+/*调用 名字 持续时间 速度变换类型 无限循环播放*/
+    animation: banner 20s linear infinite ;
+}
+@keyframes banner{
+	0%{
+		background-image: url("../img/QQ图片20221019222735.jpg");
+	}
+	25%{
+		background-image: url("../img/QQ图片20221019222824.jpg");
+	}
+	50%{
+		background-image: url("../img/QQ图片20221019222700.jpg");
+	}
+	75%{
+		background-image: url("../img/QQ图片20221019222706.jpg");
+	}
+	100%{
+		background-image: url("../img/QQ图片20221019231551.jpg");
+	}
+}
+.banner-box-right p{
+	background-color: #f1f1f1;
+	width: 520px;	
+	height: 540px;
+	margin: 0 auto;
+    float: left;
+	line-height: 65px;
+	
+}
+/*主体2——轮播图+欢迎辞.结束*/
+
+.zzjj h1 p{
+	background-color: #f1f1f1;
+	width: 1246px;	
+	text-align:center;
+}
+.zzjj h2 p{
+	background-color: #f1f1f1;
+	width: 1246px;	
+	text-align:center;
+}
+
+.zzjj p{
+	background-color: #f1f1f1;
+	width: 1246px;	
+}	
+.zzjj ol{
+	background-color: #f1f1f1;
+	width: 1246px;	
+}
+
+/*尾栏.开始*/
+.footer{
+	background-color: #f1f1f1;
+		
+	text-align:center;
+}
+/*尾栏.结束*/
